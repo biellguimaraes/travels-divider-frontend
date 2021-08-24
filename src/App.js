@@ -1,15 +1,13 @@
 import "antd/dist/antd.css"
 import './App.css';
-import ListTraveler from './components/traveler/list';
-
+import Routes from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <ListTraveler/>
+      <Routes />
     </div>
   );
 }
 
 export default App;
- 
